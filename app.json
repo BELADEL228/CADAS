@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "CADAS",
+    "slug": "cadas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2563eb"
+    },
+    "scheme": "com.cadas.app",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cadas.app",
+      "config": {
+        "googleMapsApiKey": "AQ.Ab8RN6LuCcDuR1ako18DlpW4zYWgFbGCmKgH0mSXHMP4_7xq6A"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2563eb"
+      },
+      "package": "com.cadas.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AQ.Ab8RN6LuCcDuR1ako18DlpW4zYWgFbGCmKgH0mSXHMP4_7xq6A"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "CADAS a besoin d'accéder à vos photos pour les ajouter aux annonces"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4484b2d9-9c5b-462c-9686-f0ea29f9bbf6"
+      }
+    }
+  }
+}
